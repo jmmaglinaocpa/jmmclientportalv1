@@ -1,0 +1,8 @@
+{
+  "name": "Jan Michael Maglinao, CPA",
+  "description": "Client portal for Jan Michael Maglinao, CPA practice allowing clients to manage engagements, upload document responses, and view tax returns.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

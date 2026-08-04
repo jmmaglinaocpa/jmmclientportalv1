@@ -1,0 +1,39 @@
+{
+  "models": [
+    {
+      "modelName": "users",
+      "type": "collection",
+      "schema": {
+        "uid": "string (Primary Key)",
+        "email": "string",
+        "displayName": "string",
+        "engagementStatus": "string (none, pending, active)",
+        "createdAt": "timestamp"
+      }
+    },
+    {
+      "modelName": "taxReturns",
+      "type": "collection",
+      "schema": {
+        "id": "string",
+        "userId": "string",
+        "title": "string",
+        "fileUrl": "string",
+        "dateFiled": "timestamp",
+        "taxYear": "number"
+      }
+    },
+    {
+      "modelName": "pendingItems",
+      "type": "collection",
+      "schema": {
+        "id": "string",
+        "userId": "string",
+        "title": "string",
+        "description": "string",
+        "deadline": "timestamp",
+        "status": "string (pending, completed)"
+      }
+    }
+  ]
+}
